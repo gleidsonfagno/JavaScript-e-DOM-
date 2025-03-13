@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CRUDE</title>
+    <title>CRUD</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -12,7 +13,7 @@
     <form class="form js-form">
         <label for="name">
             Nome
-            <input class="form-field js-field-name" id="name" maxlength="120" name="name" required type="text">
+            <input class="form-field js-field-name" id="name" minlength="3" maxlength="120" name="name" required type="text" onchange=validateUserName()>
         </label>
         <label for="birth-date">
             Data de Nascimento
