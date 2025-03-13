@@ -1,3 +1,57 @@
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 400px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+input{
+    font-size: 16px;
+    margin: 10px 0;
+}
+
 .erro{
     border: 1px solid red;
+}
+
+.table-header td {
+    border-bottom: 1px solid  #cccccc ;
+    margin:  20px 0;
+    padding: 20px 0; 
+}
+tr td{
+    padding: 20px 0;
+}
+
+td{
+    font-size: 1rem;
+
+}
+
+.actions {
+    display: flex;
+    gap: 20px;
+}
+
+.deletar {
+    color: red;
 }
